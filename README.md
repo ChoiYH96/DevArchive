@@ -11,4 +11,4 @@
 
 ## 📕 Latest Blog Posts
 
-<ul><li><a href='https://devhwan.tistory.com/1' target='_blank'>깃허브 연동 테스트</a></li></ul>
+<ul><li><a href='https://devhwan.tistory.com/2' target='_blank'>[Python] 프로그래머스_큰 수 만들기(Lv.2)</a></li><li><a href='https://devhwan.tistory.com/1' target='_blank'>깃허브 연동 테스트</a></li></ul>
