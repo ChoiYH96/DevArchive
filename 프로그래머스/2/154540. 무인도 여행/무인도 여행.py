@@ -13,10 +13,7 @@ def find_sector(row, col, arr):
             return cnt + find_sector(row-1, col, arr) + find_sector(row, col-1, arr) + find_sector(row+1, col, arr) + find_sector(row, col+1, arr)
         
 def solution(maps):
-    
-    if "".join(maps).replace("X","") == "":
-        return [-1]
-    
+
     a = [list(x) for x in maps]
 
     answer = []
@@ -27,4 +24,4 @@ def solution(maps):
                 temp = find_sector(i, j, a)
                 answer.append(temp)
                 
-    return sorted(answer)
+    return sorted(answer) if len(answer) != 0 else [-1]
