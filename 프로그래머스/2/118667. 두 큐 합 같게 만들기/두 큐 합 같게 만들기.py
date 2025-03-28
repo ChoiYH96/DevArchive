@@ -4,7 +4,7 @@ def solution(queue1, queue2):
 
     q1, q2 = deque(queue1), deque(queue2)
     sum1, sum2 = sum(q1), sum(q2)
-    cnt = len(q1)
+    cnt = len(q1) * 2
     answer = 0
 
     while sum1 != sum2:
