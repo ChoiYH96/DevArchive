@@ -1,5 +1,5 @@
 def solution(cards):
-    answer = []
+    answer = [0]
 
     for i in range(len(cards)):
         if cards[i] != 0:
@@ -13,4 +13,4 @@ def solution(cards):
             
     answer.sort()
     
-    return answer[-1]*answer[-2] if len(answer) > 1 else 0
+    return answer[-1]*answer[-2]
