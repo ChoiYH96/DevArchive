@@ -1,5 +1,3 @@
-from collections import deque
-
 def solution(topping):
     answer = 0 
     cnt = {x:0 for x in set(topping)}
