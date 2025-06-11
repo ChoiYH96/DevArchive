@@ -7,6 +7,6 @@ def solution(board):
     
     if cnt == 0 and 3 not in row+col+cross:
         return 1
-    if cnt == 1 and -3 not in row+col+cross and row.count(3) < 2:
+    if cnt == 1 and -3 not in row+col+cross and row.count(3) < 2 and col.count(3) < 2:
         return 1
     return 0
