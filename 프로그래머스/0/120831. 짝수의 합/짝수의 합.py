@@ -1,0 +1,1 @@
+solution = lambda x: sum(range(2,x+1,2))
