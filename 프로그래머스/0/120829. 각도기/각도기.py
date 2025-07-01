@@ -1,0 +1,1 @@
+solution = lambda x : 1 if x < 90 else 2 if x == 90 else 4 if x == 180 else 3 
