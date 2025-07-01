@@ -1,0 +1,1 @@
+solution = lambda x,y : 12000*x + 2000*(y-x//10)
